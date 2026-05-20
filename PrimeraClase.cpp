@@ -67,7 +67,7 @@ class Persona {
         return this->peso / (this->altura * this->altura);
     }
 
-    // Método que evalua el IMC y devuelve una categoria en texto
+    // Metodo que evalua el IMC y devuelve una categoria en texto
     string estadoNutricional() {
         double imc = calcularIMC();
         
